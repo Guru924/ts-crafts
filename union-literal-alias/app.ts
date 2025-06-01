@@ -28,7 +28,7 @@ const sum = combineLiteral(10, 20, "as-number"); // 30
 const userName = combineLiteral("Guru", "924", "as-string"); //Guru924
 console.log(sum, userName)
 
-//todo example Type Aligses
+//todo example Type Aliases
 
 type combineType = number | string;
 type ConversionType = "as-number" | "as-string";
