@@ -33,6 +33,12 @@ const person2: {
 }
 console.log(person2);
 
+let firstName: string = "Guru";
+const person2a: object = {
+    firstName: firstName,
+}
+// console.log(person2a.firstName); // will give error, as object may be empty, object doesn't know firstname
+
 // array
 const person3: {
     name: string;
